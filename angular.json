@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "bbBooks"
+  "defaultProject": "bbBooks",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
