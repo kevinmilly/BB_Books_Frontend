@@ -3,7 +3,8 @@ import { createAction, props } from '@ngrx/store';
 import { Transaction } from 'src/app/transactions/models/transaction.model';
 
 export const loadTransactionsSuccess = createAction(
-  '[Transaction Effect] Load Transactions Success'
+  '[Transaction Effect] Load Transactions Success',
+  props<{ transactions: Transaction[] }>()
 );
 
 export const loadTransactionsFailure = createAction(

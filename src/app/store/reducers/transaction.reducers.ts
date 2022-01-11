@@ -6,6 +6,8 @@ import * as fromAdapter from './transaction.adapter';
 
 export interface TransactionState extends EntityState<Transaction> { };
 
+export const transactionFeatureKey = 'transaction';
+
 export const initialState: TransactionState = fromAdapter.adapter.getInitialState({
     error: undefined
 })
