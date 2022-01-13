@@ -14,6 +14,11 @@ import { TransactionComponent } from './transactions/components/transaction/tran
 import { AddTransactionComponent } from './transactions/components/add-transaction/add-transaction.component';
 import { ReportComponent } from './reports/components/report/report.component';
 import { RegisterComponent } from './transactions/components/register/register.component';
+import { FormComponent } from './shared/form/form.component';
+import { GeneralCardComponent } from './shared/cards/general-card/general-card.component';
+import { ModalCardComponent } from './shared/cards/modal-card/modal-card.component';
+import { TableComponent } from './shared/table/table.component';
+import { TabComponent } from './shared/tab/tab.component';
 
 
 @NgModule({
@@ -22,7 +27,12 @@ import { RegisterComponent } from './transactions/components/register/register.c
     TransactionComponent,
     AddTransactionComponent,
     ReportComponent,
-    RegisterComponent
+    RegisterComponent,
+    FormComponent,
+    GeneralCardComponent,
+    ModalCardComponent,
+    TableComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,

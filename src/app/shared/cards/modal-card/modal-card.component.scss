@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+  
+    mat-card {
+      background-color: white;
+      width: 100%;
+      border-radius: 0.7vmax;
+      height: auto;
+      margin-top: 3vmax;
+      transition: 0.3s;
+    
+      &:hover {
+        box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  
